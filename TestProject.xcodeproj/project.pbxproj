@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA06EEA51CA0CAA400B14B66 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EEA31CA0CAA400B14B66 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA06EEA81CA0CAB800B14B66 /* GTMBase64+Des.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EEA71CA0CAB800B14B66 /* GTMBase64+Des.m */; };
+		FA06EEAB1CA0F10800B14B66 /* DeviceUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EEAA1CA0F10800B14B66 /* DeviceUtility.m */; };
+		FA06EEAE1CA1206600B14B66 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EEAD1CA1206600B14B66 /* NSObject+Swizzling.m */; };
 		FA3D456F1C9B8EE800CE4B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D456E1C9B8EE800CE4B5B /* main.m */; };
 		FA3D45721C9B8EE800CE4B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D45711C9B8EE800CE4B5B /* AppDelegate.m */; };
 		FA3D45751C9B8EE800CE4B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D45741C9B8EE800CE4B5B /* ViewController.m */; };
 		FA3D45781C9B8EE800CE4B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D45761C9B8EE800CE4B5B /* Main.storyboard */; };
 		FA3D457A1C9B8EE800CE4B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3D45791C9B8EE800CE4B5B /* Assets.xcassets */; };
 		FA3D457D1C9B8EE800CE4B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D457B1C9B8EE800CE4B5B /* LaunchScreen.storyboard */; };
+		FA3D45881C9BDF5E00CE4B5B /* LayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D45871C9BDF5E00CE4B5B /* LayoutController.m */; };
+		FA3D458B1C9BE2BC00CE4B5B /* WXCheckOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D458A1C9BE2BC00CE4B5B /* WXCheckOutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA06EEA21CA0CAA400B14B66 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		FA06EEA31CA0CAA400B14B66 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		FA06EEA41CA0CAA400B14B66 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		FA06EEA61CA0CAB800B14B66 /* GTMBase64+Des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMBase64+Des.h"; sourceTree = "<group>"; };
+		FA06EEA71CA0CAB800B14B66 /* GTMBase64+Des.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMBase64+Des.m"; sourceTree = "<group>"; };
+		FA06EEA91CA0F10800B14B66 /* DeviceUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtility.h; sourceTree = "<group>"; };
+		FA06EEAA1CA0F10800B14B66 /* DeviceUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtility.m; sourceTree = "<group>"; };
+		FA06EEAC1CA1206600B14B66 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		FA06EEAD1CA1206600B14B66 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		FA3D456A1C9B8EE800CE4B5B /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3D456E1C9B8EE800CE4B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA3D45701C9B8EE800CE4B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,10 @@
 		FA3D45791C9B8EE800CE4B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3D457C1C9B8EE800CE4B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3D457E1C9B8EE800CE4B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3D45861C9BDF5E00CE4B5B /* LayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutController.h; sourceTree = "<group>"; };
+		FA3D45871C9BDF5E00CE4B5B /* LayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutController.m; sourceTree = "<group>"; };
+		FA3D45891C9BE2BC00CE4B5B /* WXCheckOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCheckOutView.h; sourceTree = "<group>"; };
+		FA3D458A1C9BE2BC00CE4B5B /* WXCheckOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCheckOutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA06EEA11CA0CAA400B14B66 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				FA06EEA91CA0F10800B14B66 /* DeviceUtility.h */,
+				FA06EEAA1CA0F10800B14B66 /* DeviceUtility.m */,
+				FA06EEA21CA0CAA400B14B66 /* GTMBase64.h */,
+				FA06EEA31CA0CAA400B14B66 /* GTMBase64.m */,
+				FA06EEA41CA0CAA400B14B66 /* GTMDefines.h */,
+				FA06EEA61CA0CAB800B14B66 /* GTMBase64+Des.h */,
+				FA06EEA71CA0CAB800B14B66 /* GTMBase64+Des.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		FA06EEAF1CA1220E00B14B66 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				FA06EEAC1CA1206600B14B66 /* NSObject+Swizzling.h */,
+				FA06EEAD1CA1206600B14B66 /* NSObject+Swizzling.m */,
+			);
+			name = Swizzling;
+			sourceTree = "<group>";
+		};
 		FA3D45611C9B8EE800CE4B5B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +100,7 @@
 		FA3D456C1C9B8EE800CE4B5B /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				FA06EEA11CA0CAA400B14B66 /* GTMBase64 */,
 				FA3D45701C9B8EE800CE4B5B /* AppDelegate.h */,
 				FA3D45711C9B8EE800CE4B5B /* AppDelegate.m */,
 				FA3D45731C9B8EE800CE4B5B /* ViewController.h */,
@@ -67,6 +110,11 @@
 				FA3D457B1C9B8EE800CE4B5B /* LaunchScreen.storyboard */,
 				FA3D457E1C9B8EE800CE4B5B /* Info.plist */,
 				FA3D456D1C9B8EE800CE4B5B /* Supporting Files */,
+				FA3D45861C9BDF5E00CE4B5B /* LayoutController.h */,
+				FA3D45871C9BDF5E00CE4B5B /* LayoutController.m */,
+				FA3D45891C9BE2BC00CE4B5B /* WXCheckOutView.h */,
+				FA3D458A1C9BE2BC00CE4B5B /* WXCheckOutView.m */,
+				FA06EEAF1CA1220E00B14B66 /* Swizzling */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -149,9 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3D458B1C9BE2BC00CE4B5B /* WXCheckOutView.m in Sources */,
+				FA06EEA51CA0CAA400B14B66 /* GTMBase64.m in Sources */,
 				FA3D45751C9B8EE800CE4B5B /* ViewController.m in Sources */,
 				FA3D45721C9B8EE800CE4B5B /* AppDelegate.m in Sources */,
+				FA06EEA81CA0CAB800B14B66 /* GTMBase64+Des.m in Sources */,
 				FA3D456F1C9B8EE800CE4B5B /* main.m in Sources */,
+				FA06EEAB1CA0F10800B14B66 /* DeviceUtility.m in Sources */,
+				FA06EEAE1CA1206600B14B66 /* NSObject+Swizzling.m in Sources */,
+				FA3D45881C9BDF5E00CE4B5B /* LayoutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +352,7 @@
 				FA3D45831C9B8EE800CE4B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
