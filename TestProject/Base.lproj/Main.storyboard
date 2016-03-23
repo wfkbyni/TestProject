@@ -43,7 +43,7 @@
                                     <constraint firstAttribute="width" constant="216" id="aQs-an-eno"/>
                                     <constraint firstAttribute="height" constant="67" id="iUX-2C-XgO"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button "/>
                                 <connections>
                                     <segue destination="Kr4-MD-KVR" kind="push" id="fjN-Kp-B3e"/>
                                 </connections>
